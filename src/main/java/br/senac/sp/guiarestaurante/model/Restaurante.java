@@ -3,6 +3,8 @@ package br.senac.sp.guiarestaurante.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 @Entity
 public class Restaurante {
@@ -30,4 +32,6 @@ public class Restaurante {
     private boolean espacoKids;
     @ManyToOne
     private TipoRestaurante tipoRestaurante;
+    @OneToMany(mappedBy = "restaurante")
+    private List<Avaliacao> avaliacoes;
 }
