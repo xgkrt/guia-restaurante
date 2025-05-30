@@ -12,7 +12,7 @@
 	<artifactId>guiarestaurante</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>guiarestaurante</name>
-	<description>projeto poo usando springo boot</description>
+	<description>projeto poo usando spring boot</description>
 	<url/>
 	<licenses>
 		<license/>
